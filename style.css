@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  width: 375px;
+  height: 667px;
+  background-color: #F5F5F5;
+}
+
+#login_container {
+  width: 100%;
+  height: 100%;
+  /* background-color: grey; */
+}
+
+#login_header {
+  width: 100%;
+  height: 57px;
+  background-color: #492140;
+}
+
+#login_title {
+  line-height: 57px;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+/* Name */
+#login_name_container {
+  padding-top: 16px;
+}
+
+#login_name_label {
+  margin-left: 30px;
+}
+
+#lgoin_name_input {
+  border: 1px solid rgba(38, 50, 56, 0.25);
+  border-radius: 8px;
+  margin-left: 22px;
+  margin-top: 6px;
+  width: 327px;
+  height: 56px;
+}
+
+/* Email */
+#login_email_container {
+  padding-top: 16px;
+}
+
+#login_email_label {
+  margin-left: 30px;
+}
+
+#lgoin_email_input {
+  border: 1px solid rgba(38, 50, 56, 0.25);
+  border-radius: 8px;
+  margin-left: 22px;
+  margin-top: 6px;
+  width: 327px;
+  height: 56px;
+}
+
+/* Password */
+#login_password_container {
+  padding-top: 16px;
+}
+
+#login_password_label {
+  margin-left: 30px;
+}
+
+#lgoin_password_input {
+  border: 1px solid rgba(38, 50, 56, 0.25);
+  border-radius: 8px;
+  margin-left: 22px;
+  margin-top: 6px;
+  width: 327px;
+  height: 56px;
+  font-size: 48px;
+  letter-spacing: 4px;
+}
+
+/* Password (again) */
+#login_password_again_container {
+  padding-top: 16px;
+}
+
+#login_password_again_label {
+  margin-left: 30px;
+}
+
+#login_password_again_input {
+  border: 1px solid rgba(38, 50, 56, 0.25);
+  border-radius: 8px;
+  margin-left: 22px;
+  margin-top: 6px;
+  width: 327px;
+  height: 56px;
+}
+
+#login_password_message {
+  margin-left: 22px;
+  font-size: 14px;
+  color: #FF0000;
+}
+
+/* Create Account */
+#login_submit_button_container {
+  margin-top: 24px;
+}
+
+#login_submit_button_input {
+  border: 1px solid rgba(38, 50, 56, 0.25);
+  border-radius: 8px;
+  margin-left: 22px;
+  margin-top: 6px;
+  width: 327px;
+  height: 56px;
+
+  font-size: 18px;
+  background-color: #DA1BB0;
+  color: #F5F5F5;
+}
+
+/* Sign in */
+#login_sign_in_container {
+  margin-top: 24px;
+  margin-left: 90px;
+
+}
+
+#login_sign_in_link {
+  font-size: 14px;
+  color: #000000;
+}

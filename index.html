@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Code Chrysalis</title>
-  </head>
 
-  <body>
-    <h1 id="title"></h1>
-    <script src="./index.js"></script>
-  </body>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
+  <title>Code Chrysalis</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <!-- <h1 id="title"></h1> -->
+  <!-- <script src="./index.js"></script> -->
+
+  <div id="container">
+    <div id="login_container">
+      <div id="login_header">
+        <div id="login_title">New Account</div>
+      </div>
+
+      <div id="login_name_container">
+        <label id="login_name_label" for="login_name_input">Name</label>
+        <input id="lgoin_name_input" type="text" name="lgoin_name_input">
+      </div>
+
+      <div id="login_email_container">
+        <label id="login_email_label" for="login_email_input">Email</label>
+        <input id="lgoin_email_input" type="text" name="lgoin_email_input">
+      </div>
+
+      <div id="login_password_container">
+        <label id="login_password_label" for="login_password_input">Password</label>
+        <input id="lgoin_password_input" type="password" name="lgoin_password_input">
+        <div id="login_password_message">12 or more combination of letters, numbers, and symbols</div>
+      </div>
+
+      <div id="login_password_again_container">
+        <label id="login_password_again_label" for="login_password_again_input">Password (again)</label>
+        <input id="login_password_again_input" type="password" name="login_password_again_input">
+      </div>
+
+      <div id="login_submit_button_container">
+        <input id="login_submit_button_input" type="button" value="Create Account">
+      </div>
+
+      <div id="login_sign_in_container">
+        <a id="login_sign_in_link" href="">Already have an account? Sign in</a>
+      </div>
+    </div>
+  </div>
+</body>
+
 </html>
